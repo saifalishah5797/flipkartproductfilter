@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Annotations">
+  <test name="run class Annotatipns">
+  <classes>
+  
+  <class name="demoTestNg.Configurations_1_Datepickers">
+  
+  
+  </class>
+  
+  <class name="demoTestNg.Configurations_2_ListBox"></class>
+  </classes>
+  
+  
+  
+  </test>
+
+</suite> <!-- Suite1 -->
