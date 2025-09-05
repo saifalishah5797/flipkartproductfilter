@@ -56,15 +56,15 @@ public class FlipkartTest {
     }
 
     // ---------- TEST CASE 3 (Intentional Fail) ----------
-    @Test
-    public void searchInvalidProductTest() {
+    //@Test
+   /* public void searchInvalidProductTest() {
         test = extent.createTest("Search XYZABC (Invalid Product)");
         openFlipkartAndSearch("XYZABC");
         String title = driver.getTitle();
         // This will fail intentionally
         Assert.assertTrue(title.toLowerCase().contains("iphone"));
         test.pass("Unexpected success (this should fail)");
-    }
+    }*/
 
     // ---------- COMMON METHOD ----------
     public void openFlipkartAndSearch(String product) {
