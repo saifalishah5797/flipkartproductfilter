@@ -10,5 +10,9 @@ import io.cucumber.junit.CucumberOptions;
     glue = {"com.StepsDefinitions"},
     plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 )
-public class Runner {
+public class Runner extends AbstractTestNGCucumberTests{
+	
+	 @Test
+	    public void runCukes() {}
 }
+
